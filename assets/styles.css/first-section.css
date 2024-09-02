@@ -16,10 +16,17 @@
     font-size: 3rem;
 }
 #first>picture>img{
-    width: 100%;;
+    width: 100%;
+}
+#first>div>button{
+    width: fit-content;
+    padding:.5rem;
 }
 @media(max-width:750px){
     #first{
         grid-template-columns: 1fr;
+    }
+    #first>div>*{
+        margin:.5rem;
     }
 }

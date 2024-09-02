@@ -9,7 +9,6 @@ padding:3rem;
 }
 @media(max-width:750px){
     #home-menu-section>div{
-        padding-inline:0;
-        gap:2rem;
+        gap:1.5rem;
     }
 }
