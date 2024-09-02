@@ -1,0 +1,9 @@
+#home-menu-section>div{
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+gap:3rem;
+padding:3rem;
+}
+#home-menu-section>h2{
+    text-align: center;
+}
