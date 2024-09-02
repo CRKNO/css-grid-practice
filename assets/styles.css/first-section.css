@@ -1,0 +1,17 @@
+#first{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 500px));
+}
+#first>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    padding:3rem
+}
+#first>div>h1{
+    font-size: 3rem;
+}
+#first>picture>img{
+    width: 100%;;
+}
