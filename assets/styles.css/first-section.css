@@ -1,13 +1,18 @@
 #first{
     display: grid;
-    grid-template-columns: repeat(2, minmax(200px, 500px));
+    grid-template-columns: repeat(2, 1fr);
+    gap:3rem;
+    justify-content: center;
+    padding:3rem
 }
 #first>div{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 
-    padding:3rem
+    padding:3rem;
+}
+#first>*{
 }
 #first>div>h1{
     font-size: 3rem;
