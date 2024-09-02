@@ -18,3 +18,8 @@
 #first>picture>img{
     width: 100%;;
 }
+@media(max-width:750px){
+    #first{
+        grid-template-columns: 1fr;
+    }
+}

@@ -7,3 +7,9 @@ padding:3rem;
 #home-menu-section>h2{
     text-align: center;
 }
+@media(max-width:750px){
+    #home-menu-section>div{
+        padding-inline:0;
+        gap:2rem;
+    }
+}
