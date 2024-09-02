@@ -24,7 +24,9 @@
 }
 @media(max-width:750px){
     #first{
+        max-height: 100vh;
         grid-template-columns: 1fr;
+        grid-auto-rows: 1fr;
     }
     #first>div>*{
         margin:.5rem;
